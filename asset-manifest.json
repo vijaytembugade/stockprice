@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/stockprice/static/css/main.bd5c74c0.chunk.css",
+    "main.js": "/stockprice/static/js/main.1527b848.chunk.js",
+    "main.js.map": "/stockprice/static/js/main.1527b848.chunk.js.map",
+    "runtime-main.js": "/stockprice/static/js/runtime-main.6a8d43ea.js",
+    "runtime-main.js.map": "/stockprice/static/js/runtime-main.6a8d43ea.js.map",
+    "static/js/2.a6fe8392.chunk.js": "/stockprice/static/js/2.a6fe8392.chunk.js",
+    "static/js/2.a6fe8392.chunk.js.map": "/stockprice/static/js/2.a6fe8392.chunk.js.map",
+    "static/js/3.1384ff52.chunk.js": "/stockprice/static/js/3.1384ff52.chunk.js",
+    "static/js/3.1384ff52.chunk.js.map": "/stockprice/static/js/3.1384ff52.chunk.js.map",
+    "index.html": "/stockprice/index.html",
+    "static/css/main.bd5c74c0.chunk.css.map": "/stockprice/static/css/main.bd5c74c0.chunk.css.map",
+    "static/js/2.a6fe8392.chunk.js.LICENSE.txt": "/stockprice/static/js/2.a6fe8392.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a8d43ea.js",
+    "static/js/2.a6fe8392.chunk.js",
+    "static/css/main.bd5c74c0.chunk.css",
+    "static/js/main.1527b848.chunk.js"
+  ]
+}
