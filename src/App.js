@@ -21,21 +21,7 @@ function App() {
     backgroundRepeat: "no-repeat",
   };
 
-  useEffect(() => {
-    fetch("https://zirra.p.rapidapi.com/v1/timeseries", {
-      method: "GET",
-      headers: {
-        "x-rapidapi-key": "4166e9b862mshe2783ddb960d6dep127a94jsnb949cc04dc69",
-        "x-rapidapi-host": "zirra.p.rapidapi.com",
-      },
-    })
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((err) => {
-        console.error(err);
-      });
-  }, []);
+  
   function handleCheck() {
     if (price > 0 && qty > 0 && currentPrice) {
       var totalPrice = price * qty;
@@ -43,7 +29,7 @@ function App() {
       var profit = currentTotalPrice - totalPrice;
       console.log(profit);
 
-      let percetage = (profit / totalPrice) * 100;
+      let percetage = Math.abs((profit / totalPrice) * 100);
       console.log(percetage);
 
       if (profit > 0) {
@@ -55,11 +41,16 @@ function App() {
           </h4>
         );
       } else if (profit < 0) {
-        setBackGround("https://i.gifer.com/XZ9.gif");
+        if(Number(percetage) >= 50 ){
+          setBackGround("https://i.gifer.com/XZ9.gif");
+        }
+        else{
+          setBackGround("https://media.tenor.com/images/2b454269146fcddfdae60d3013484f0f/tenor.gif")
+        }
         setOutput(
           <h4>
             Awww ! You made {Math.abs(profit)} Rs loss. Total loss is{" "}
-            {Math.abs(percetage)} %. 😢😢
+            {percetage} %. 😢😢
           </h4>
         );
       } else if (profit === 0) {
