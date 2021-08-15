@@ -1,5 +1,6 @@
-mark 14 for NeoGcamp :
+# Profit or Loss Calculator on Stock price.
 
-Link : https://neog.camp/qualifier/point-system
-problem statment : https://github.com/neogcamp/build/blob/main/basics/profit-or-loss.md
-Hosted on: https://vijaytembugade.github.io/stockprice
+It will give idea how much profit/loss you will make at a point if you know purchacing price , number of stocks and Current price of stcok. User has to give three inputs as mentioned before, and it will show gross profit/loss and in percentage also. 
+
+## Link
+https://vijaytembugade.github.io/stockprice
