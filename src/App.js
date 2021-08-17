@@ -67,7 +67,7 @@ function App() {
     <>
     <Welcome/>
     <div className="container" style={myStyles}>
-      <h3>Perchase Price</h3>
+      <h3>Purchase Price</h3>
       <input onChange={priceHandler} type="number"></input>
       <br />
       <h3>Quantity of Stock</h3>
